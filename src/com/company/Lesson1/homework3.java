@@ -10,7 +10,7 @@ public class homework3 {
 
     public static void main () {
 
-        int n = inputInteger(); // в программе не проверяется является ли строка числом и числом типа double;
+        int n = inputInteger();
 
         double w1 = (double) n;
         double x = (double)Math.round(w1);

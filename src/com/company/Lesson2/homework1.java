@@ -9,26 +9,24 @@ import java.util.Scanner;
 public class homework1 {
     public static void main(String[] args) {
 
-
-      int a;
+        int a;
         Random random = new Random(5);
+        a = random.nextInt(155);
 
 
+
+        for(int i = 0; i<500; i++) {
             a = random.nextInt(155);
-        for(int i = 0; i<100; i++) {
-            a = random.nextInt(155);
-            for (int j = 26; j<100; j++) {
-                if (a==j) {
+                if(a>=5) {
+                    if (a > 25 && a < 100) {
+                        System.out.println("Число " + a + "  содержится в интервале (25,100)");
 
-                    System.out.println("Число " + a + " содержится в интервале (25,100)");
+                    } else if (a < 25 || a > 100) {
 
+                        System.out.println("Число " + a + " не содержится в интервале (25,100)");
+                    }
                 }
-            }
-
-            System.out.println("Число " + a + " содержится в интервале (25,100)");
         }
-
-
 
 
 /*        do {
