@@ -19,8 +19,6 @@ public class homework2 {
 
 
 
-
-
       for (int j = 0; j<100; j++) {
 
           int a = random.nextInt(999);
